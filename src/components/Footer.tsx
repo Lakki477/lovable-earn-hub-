@@ -1,8 +1,7 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-import { Telegram } from 'lucide-react';
+import { MessageCircle } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -21,7 +20,7 @@ const Footer = () => {
               className="bg-lovable-pink hover:bg-lovable-pink-hover text-white"
               onClick={() => window.open('https://t.me/lovable_earn', '_blank')}
             >
-              <Telegram className="mr-2 h-4 w-4" /> Join Telegram
+              <MessageCircle className="mr-2 h-4 w-4" /> Join Telegram
             </Button>
           </div>
 

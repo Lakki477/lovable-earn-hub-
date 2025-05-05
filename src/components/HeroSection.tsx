@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import { badgeDollarSign, shoppingBag, users } from 'lucide-react';
+import { BadgeDollarSign, ShoppingBag, Users } from 'lucide-react';
 
 const HeroSection = () => {
   return (
@@ -36,7 +36,7 @@ const HeroSection = () => {
             <div className="flex items-center space-x-6 mt-8">
               <div className="flex items-center">
                 <div className="bg-lovable-pink/20 p-2 rounded-full">
-                  <shoppingBag className="h-5 w-5 text-lovable-pink" />
+                  <ShoppingBag className="h-5 w-5 text-lovable-pink" />
                 </div>
                 <div className="ml-2">
                   <p className="font-semibold">Shopping Deals</p>
@@ -45,7 +45,7 @@ const HeroSection = () => {
               </div>
               <div className="flex items-center">
                 <div className="bg-lovable-pink/20 p-2 rounded-full">
-                  <badgeDollarSign className="h-5 w-5 text-lovable-pink" />
+                  <BadgeDollarSign className="h-5 w-5 text-lovable-pink" />
                 </div>
                 <div className="ml-2">
                   <p className="font-semibold">Free eBooks</p>
@@ -65,7 +65,7 @@ const HeroSection = () => {
                 <div className="space-y-3 mb-4">
                   <div className="flex items-center p-3 bg-gray-50 rounded-lg">
                     <div className="bg-green-100 p-2 rounded-full">
-                      <users className="h-4 w-4 text-green-600" />
+                      <Users className="h-4 w-4 text-green-600" />
                     </div>
                     <div className="ml-3">
                       <p className="text-sm font-medium">Anshul earned ₹1,500</p>
@@ -77,7 +77,7 @@ const HeroSection = () => {
                   </div>
                   <div className="flex items-center p-3 bg-gray-50 rounded-lg">
                     <div className="bg-blue-100 p-2 rounded-full">
-                      <shoppingBag className="h-4 w-4 text-blue-600" />
+                      <ShoppingBag className="h-4 w-4 text-blue-600" />
                     </div>
                     <div className="ml-3">
                       <p className="text-sm font-medium">Priya earned ₹680</p>

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -15,7 +14,7 @@ import {
   Smartphone, 
   DollarSign,
   BadgeDollarSign,
-  Telegram,
+  MessageCircle,
   BookText
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -315,7 +314,7 @@ const Index = () => {
             onClick={() => window.open('https://t.me/lovable_earn', '_blank')}
             className="bg-lovable-pink hover:bg-lovable-pink-hover text-white inline-flex items-center"
           >
-            <Telegram className="mr-2 h-4 w-4" />
+            <MessageCircle className="mr-2 h-4 w-4" />
             Join Telegram Channel
           </Button>
         </div>
@@ -409,7 +408,7 @@ const Index = () => {
             className="bg-white text-lovable-pink hover:bg-gray-100 px-8"
             size="lg"
           >
-            <Telegram className="mr-2 h-5 w-5" />
+            <MessageCircle className="mr-2 h-5 w-5" />
             Join @lovable_earn on Telegram
           </Button>
           <div className="mt-6 flex items-center justify-center">
