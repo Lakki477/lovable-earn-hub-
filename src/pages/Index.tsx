@@ -15,7 +15,8 @@ import {
   DollarSign,
   BadgeDollarSign,
   MessageCircle,
-  BookText
+  BookText,
+  Mail,
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -93,7 +94,7 @@ const Index = () => {
             description="Earn ₹900 per successful referral. India's leading stockbroker with zero brokerage."
             icon={<Users className="h-6 w-6 text-lovable-pink" />}
             buttonText="Open Account Now"
-            buttonLink="https://angelone.in"
+            buttonLink="https://DemetAccountEarning"
             bgColor="bg-white"
             isExternal={true}
           />
@@ -102,7 +103,7 @@ const Index = () => {
             description="Get ₹800 for each friend who opens a Demat account through your referral link."
             icon={<Users className="h-6 w-6 text-lovable-pink" />}
             buttonText="Open Account Now"
-            buttonLink="https://upstox.com"
+            buttonLink="https://DemetAccountEarning"
             bgColor="bg-white"
             isExternal={true}
           />
@@ -111,7 +112,7 @@ const Index = () => {
             description="Refer friends and earn ₹1000 per successful account opening. Easy investment platform."
             icon={<Users className="h-6 w-6 text-lovable-pink" />}
             buttonText="Open Account Now"
-            buttonLink="https://groww.in"
+            buttonLink="https://DemetAccountEarning"
             bgColor="bg-white"
             isExternal={true}
           />
@@ -172,8 +173,11 @@ const Index = () => {
                   <span className="text-sm">Retouching</span>
                 </li>
               </ul>
-              <Button className="w-full bg-lovable-pink hover:bg-lovable-pink-hover text-white">
-                Order Now
+              <Button 
+                className="w-full bg-lovable-pink hover:bg-lovable-pink-hover text-white"
+                onClick={() => window.open('https://wa.me/917533877817', '_blank')}
+              >
+                Contact Now
               </Button>
             </div>
           </div>
@@ -204,8 +208,11 @@ const Index = () => {
                   <span className="text-sm">Color grading</span>
                 </li>
               </ul>
-              <Button className="w-full bg-lovable-pink hover:bg-lovable-pink-hover text-white">
-                Order Now
+              <Button 
+                className="w-full bg-lovable-pink hover:bg-lovable-pink-hover text-white"
+                onClick={() => window.open('https://wa.me/917533877817', '_blank')}
+              >
+                Contact Now
               </Button>
             </div>
           </div>
@@ -236,8 +243,11 @@ const Index = () => {
                   <span className="text-sm">Source file included</span>
                 </li>
               </ul>
-              <Button className="w-full bg-lovable-pink hover:bg-lovable-pink-hover text-white">
-                Order Now
+              <Button 
+                className="w-full bg-lovable-pink hover:bg-lovable-pink-hover text-white"
+                onClick={() => window.open('https://wa.me/917533877817', '_blank')}
+              >
+                Contact Now
               </Button>
             </div>
           </div>
@@ -252,7 +262,7 @@ const Index = () => {
                 Send payment to our UPI ID and forward screenshot along with your order details.
               </p>
               <div className="bg-gray-100 p-2 rounded text-center font-medium">
-                UPI ID: lovable@upi
+                UPI ID: 6395899122@pthdfc
               </div>
             </div>
             <div className="bg-white p-5 rounded-lg">
@@ -262,7 +272,7 @@ const Index = () => {
               </p>
               <Button 
                 className="w-full bg-green-500 hover:bg-green-600 text-white"
-                onClick={() => window.open('https://wa.me/919XXXXXXXX', '_blank')}
+                onClick={() => window.open('https://wa.me/917533877817', '_blank')}
               >
                 WhatsApp Support
               </Button>
@@ -284,24 +294,27 @@ const Index = () => {
             description="Access a collection of premium motivational guides that will help you achieve your goals."
             icon={<BookOpen className="h-6 w-6 text-lovable-pink" />}
             buttonText="Download Free"
-            buttonLink="#"
+            buttonLink="https://t.me/AIxploreHub"
             bgColor="bg-white"
+            isExternal={true}
           />
           <EarningCard
             title="Study Materials"
             description="Free access to high-quality study guides, notes, and practice papers for various exams."
             icon={<BookText className="h-6 w-6 text-lovable-pink" />}
             buttonText="Download Free"
-            buttonLink="#"
+            buttonLink="https://t.me/AIxploreHub"
             bgColor="bg-white"
+            isExternal={true}
           />
           <EarningCard
             title="Finance eBooks"
             description="Learn about personal finance, investing, and wealth creation from expert resources."
             icon={<BookOpen className="h-6 w-6 text-lovable-pink" />}
             buttonText="Download Free"
-            buttonLink="#"
+            buttonLink="https://t.me/AIxploreHub"
             bgColor="bg-white"
+            isExternal={true}
           />
         </div>
         
@@ -369,6 +382,7 @@ const Index = () => {
               Legitimate mobile apps that pay for simple tasks & activities.
             </p>
             <Button 
+              onClick={() => window.open('https://t.me/techseeset', '_blank')}
               variant="outline" 
               className="w-full border-lovable-pink text-lovable-pink hover:bg-lovable-pink hover:text-white"
             >
@@ -385,6 +399,7 @@ const Index = () => {
               Start earning online with zero initial investment required.
             </p>
             <Button 
+              onClick={() => window.open('https://t.me/techseeset', '_blank')}
               variant="outline" 
               className="w-full border-lovable-pink text-lovable-pink hover:bg-lovable-pink hover:text-white"
             >

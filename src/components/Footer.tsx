@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-import { MessageCircle, Youtube } from 'lucide-react';
+import { MessageCircle, Youtube, Smartphone, Mail } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -98,6 +98,22 @@ const Footer = () => {
                 className="text-lovable-pink hover:text-lovable-light-pink transition-colors flex items-center"
               >
                 <Youtube className="h-4 w-4 mr-2" /> Shadow Records
+              </a>
+              <a
+                href="mailto:lakkirathour477@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-lovable-pink hover:text-lovable-light-pink transition-colors flex items-center"
+              >
+                <Mail className="h-4 w-4 mr-2" /> lakkirathour477@gmail.com
+              </a>
+              <a
+                href="https://wa.me/917533877817"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-lovable-pink hover:text-lovable-light-pink transition-colors flex items-center"
+              >
+                <Smartphone className="h-4 w-4 mr-2" /> +91 7533877817
               </a>
             </div>
           </div>
