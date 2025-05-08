@@ -38,7 +38,7 @@ const Index = () => {
             description="Exclusive cashback deals on electronics, fashion, books & more. Save on every purchase!"
             icon={<ShoppingBag className="h-6 w-6 text-lovable-pink" />}
             buttonText="Shop & Earn Now"
-            buttonLink="https://amazon.in"
+            buttonLink="https://t.me/RozLoots"
             isExternal={true}
           />
           <EarningCard
@@ -46,7 +46,7 @@ const Index = () => {
             description="Special discounts & referral benefits on India's largest online marketplace."
             icon={<ShoppingBag className="h-6 w-6 text-lovable-pink" />}
             buttonText="Shop & Earn Now"
-            buttonLink="https://flipkart.com"
+            buttonLink="https://t.me/RozLoots"
             isExternal={true}
           />
           <EarningCard
@@ -54,7 +54,7 @@ const Index = () => {
             description="Trending fashion at best prices with extra cashback on every purchase."
             icon={<ShoppingBag className="h-6 w-6 text-lovable-pink" />}
             buttonText="Shop & Earn Now"
-            buttonLink="https://ajio.com"
+            buttonLink="https://t.me/RozLoots"
             isExternal={true}
           />
         </div>
@@ -72,6 +72,7 @@ const Index = () => {
                 <Button 
                   className="w-full bg-lovable-pink text-white text-xs py-1"
                   size="sm"
+                  onClick={() => window.open('https://t.me/RozLoots', '_blank')}
                 >
                   Claim Deal
                 </Button>
@@ -94,7 +95,7 @@ const Index = () => {
             description="Earn ₹900 per successful referral. India's leading stockbroker with zero brokerage."
             icon={<Users className="h-6 w-6 text-lovable-pink" />}
             buttonText="Open Account Now"
-            buttonLink="https://DemetAccountEarning"
+            buttonLink="https://t.me/DemetAccountEarning"
             bgColor="bg-white"
             isExternal={true}
           />
@@ -103,7 +104,7 @@ const Index = () => {
             description="Get ₹800 for each friend who opens a Demat account through your referral link."
             icon={<Users className="h-6 w-6 text-lovable-pink" />}
             buttonText="Open Account Now"
-            buttonLink="https://DemetAccountEarning"
+            buttonLink="https://t.me/DemetAccountEarning"
             bgColor="bg-white"
             isExternal={true}
           />
@@ -112,7 +113,7 @@ const Index = () => {
             description="Refer friends and earn ₹1000 per successful account opening. Easy investment platform."
             icon={<Users className="h-6 w-6 text-lovable-pink" />}
             buttonText="Open Account Now"
-            buttonLink="https://DemetAccountEarning"
+            buttonLink="https://t.me/DemetAccountEarning"
             bgColor="bg-white"
             isExternal={true}
           />
