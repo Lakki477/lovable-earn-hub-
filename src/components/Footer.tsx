@@ -1,7 +1,8 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-import { MessageCircle } from 'lucide-react';
+import { MessageCircle, Youtube } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -78,17 +79,27 @@ const Footer = () => {
 
           <div>
             <h3 className="font-semibold text-xl mb-4">Connect With Us</h3>
-            <p className="text-gray-300 mb-2">
+            <p className="text-gray-300 mb-4">
               Join our Telegram channel for daily updates and exclusive earning opportunities.
             </p>
-            <a
-              href="https://t.me/lovable_earn"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-lovable-pink hover:text-lovable-light-pink transition-colors"
-            >
-              @lovable_earn
-            </a>
+            <div className="flex flex-col space-y-3">
+              <a
+                href="https://t.me/lovable_earn"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-lovable-pink hover:text-lovable-light-pink transition-colors flex items-center"
+              >
+                <MessageCircle className="h-4 w-4 mr-2" /> @lovable_earn
+              </a>
+              <a
+                href="https://youtube.com/@shadow_records0?si=VzoPnGSRDOkzOdWN"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-lovable-pink hover:text-lovable-light-pink transition-colors flex items-center"
+              >
+                <Youtube className="h-4 w-4 mr-2" /> Shadow Records
+              </a>
+            </div>
           </div>
         </div>
 
